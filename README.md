@@ -1,2 +1,2 @@
-# database-encrypt-demo
-数据库用户名，密码加密
+## 项目架构
+1. springboot+mybatis
