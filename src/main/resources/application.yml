@@ -2,5 +2,17 @@ mysql:
   jdbc:
     url: jdbc:mysql://localhost/mydb?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
     driverClass: com.mysql.jdbc.Driver
-    username: root
-    password: root
+    username: AvtNzdM7qxou+5Rrb0VO02w6DyltCSIOUi9aOf3sWaVYnrXntNB0fGEujUm/tef+GsOydDWDZ3VbGhcSIKX5Mw==
+    username_publickey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJO42vzkepf+kvNh2s+4S9SnHcYo/BuECnzrSkzwqkHVguGlcRCrh38qUvV4a1AvXI9eC+OZT63HfW0hOiWKw68CAwEAAQ==
+    password: P4tyXkJMYEuUNlnW7Sw5tVItObK+8VKyLCjQbkcjZ/YyzuiA9pu+EafL5iXhfTIOp6AUbdqynAjkx2KR0bn3zA==
+    password_public_key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALUzsUrRFYMIKsZL3sH2+7rEjfAwXdlyoBoDRKND9RKdZhnUhe3NxMXiDFLD4saJPB/G7rDTNNVRM6CatT6PL1UCAwEAAQ==
+
+logging:
+  config: classpath:logback.xml
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.domain
+  configuration:
+      mapUnderscoreToCamelCase: true
+
+
